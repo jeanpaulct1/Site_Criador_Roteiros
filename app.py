@@ -104,4 +104,3 @@ if st.button("Gerar 3 Opções de Roteiro"):
             with tab3:
                 conteudo = partes[2] if len(partes) > 2 else "Erro ao gerar roteiro 3."
                 st.markdown(f'<div class="script-card">{conteudo}</div>', unsafe_allow_html=True)
-                
