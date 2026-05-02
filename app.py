@@ -5,7 +5,25 @@ from brain import ScriptEngine
 # UI REFINADA (Foco em Contraste e Organização)
 # ---------------------------------------------------------
 st.set_page_config(page_title="Script Pro 2.5", layout="centered")
+# ---------------------------------------------------------
+# SEÇÃO EXPLICATIVA (O QUE O SITE FAZ)
+# ---------------------------------------------------------
+with st.expander("💡 O que é este site e por que usá-lo?"):
+    st.markdown("""
+    ### 🚀 Transforme Ideias em Roteiros Virais
+    Este site é um **Gerador de Roteiros Inteligente** que utiliza a tecnologia do **Google Gemini** para estruturar sua comunicação.
+    
+    **O que ele faz realmente?**
+    Ele analisa seu produto e público para aplicar técnicas de *Copywriting* divididas em:
+    *   **Gancho:** Para prender a atenção nos primeiros segundos.
+    *   **Retenção:** Para manter o interesse durante o vídeo.
+    *   **CTA:** Para direcionar o público para uma ação de compra.
 
+    **Por que é interessante utilizar?**
+    1. **Agilidade:** Gere 3 opções profissionais instantaneamente.
+    2. **Conversão:** Roteiros focados em vendas, não apenas em entretenimento.
+    3. **Criatividade:** Ideal para superar o bloqueio criativo em plataformas como TikTok e Reels.
+    """)
 st.markdown("""
     <style>
     /* 1. Remove o fundo branco da barra superior (Header) */
